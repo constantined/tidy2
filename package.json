@@ -5,7 +5,7 @@
   "main": "tidy.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "preinstall": "node-waf configure && node-waf clean build",
+        "preinstall": "node-gyp configure && node-gyp clean build",
         "preuninstall": "rm -rf build/*"
     },
     "repository": {
